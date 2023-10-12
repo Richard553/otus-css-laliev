@@ -5,5 +5,3 @@
 ### new string 2 edited
 
 ### new string 3
-
-
