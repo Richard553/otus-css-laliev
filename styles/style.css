@@ -1,8 +1,66 @@
 @font-face {
-    font-family: "Playfair Display";
+    font-family: "Playfair Display Medium";
     src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
     font-weight: 500;
 }
+@font-face {
+    font-family: "Playfair Display Regular";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Bitter Bold";
+    src: url('//fonts/Bitter/static/Bitter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Bitter Regular";
+    src: url('/fonts/Bitter/static/Bitter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Bitter Light";
+    src: url('//fonts/Bitter/static/Bitter-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url('//fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url('//fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url('//fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url('//fonts/Inter/static/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+/* h2 {
+    color: #0D0D0D;
+    font-family: 'Bitter', serif;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} */ остановился тут, доработать 
+
+
 
 
 
