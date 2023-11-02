@@ -3,25 +3,6 @@
     src: url('/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
     font-weight: 500;
 }
-/* @font-face {
-    font-family: "Playfair Display Regular";
-    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
-    font-weight: 400;
-} */
-
-/* @font-face {
-    font-family: "Bitter Bold";
-    src: url('//fonts/Bitter/static/Bitter-Bold.ttf');
-    font-weight: 700;
-}
-
-
-
-/* @font-face {
-    font-family: "Bitter Light";
-    src: url('//fonts/Bitter/static/Bitter-Light.ttf');
-    font-weight: 300;
-} */ 
 
 @font-face {
     font-family: "Bitter";
@@ -53,7 +34,25 @@
     font-weight: 400;
 } */
 
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-weight: 400;
+} */
 
+/* @font-face {
+    font-family: "Bitter Bold";
+    src: url('//fonts/Bitter/static/Bitter-Bold.ttf');
+    font-weight: 700;
+}
+
+
+
+/* @font-face {
+    font-family: "Bitter Light";
+    src: url('//fonts/Bitter/static/Bitter-Light.ttf');
+    font-weight: 300;
+} */ 
 
 
 
@@ -105,7 +104,7 @@ body {
 .section-name {
     color: #000;
     text-align: right;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -141,53 +140,12 @@ body {
 
 .quote {
     color: #0D0D0D;
-    font-family: 'Bitter';
+    font-family: 'Bitter',serif;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
-/* .designer-name {
-    text-transform: uppercase;
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
-} */
-
-/* .designer-name {
-
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal; */
-
-    /* color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase; */
-
-
-
-/* .description {
-    color: #000;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-} */
-
-/* nen */
 
 .designer-name {
     color: #000;
@@ -203,6 +161,57 @@ body {
     color: #000;
     font-family: 'Roboto Regular', sans-serif;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description>strong{
+    font-weight: 700;
+}
+
+
+.site {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.link {
+    color: #000;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Strengths-list {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 86px */
+}
+
+.Strengths {
+    color: #000;
+    font-family: 'Bitter', serif;
+    font-size: 34px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
