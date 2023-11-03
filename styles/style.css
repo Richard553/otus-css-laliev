@@ -71,6 +71,62 @@ body{
     background-color: bisque;
 }
 
+
+
+
+.nav{
+    min-height: 135px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.nav-list{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 55px;
+    flex: 1 0 0;
+    list-style: none;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.title-page {
+    width: 1440px;
+    height: 630px;
+    flex-shrink: 0;
+    background: url("/img/title_page_1.jpg"), lightgray 0px -464.632px / 100% 242.111% no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.title-text {
+    display: flex;
+    width: 690px;
+    padding: 110px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: #FFF;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-link {
     font-family: 'Roboto', sans-serif;
     color: #000;
