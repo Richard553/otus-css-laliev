@@ -1,13 +1,223 @@
+@font-face {
+    font-family: "Playfair Display";
+    src: url('/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Bitter";
+    src: url('/fonts/Bitter/static/Bitter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url('//fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(/fonts/Roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+} 
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url('/fonts/Roboto/Roboto-Regular.ttf');
+    font-weight: 400;
+}
+
+/* @font-face {
+    font-family: "Inter Regular";
+    src: url('//fonts/Inter/static/Inter-Regular.ttf');
+    font-weight: 400;
+} */
+
+/* @font-face {
+    font-family: "Playfair Display Regular";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-weight: 400;
+} */
+
+/* @font-face {
+    font-family: "Bitter Bold";
+    src: url('//fonts/Bitter/static/Bitter-Bold.ttf');
+    font-weight: 700;
+}
+
+
+
+/* @font-face {
+    font-family: "Bitter Light";
+    src: url('//fonts/Bitter/static/Bitter-Light.ttf');
+    font-weight: 300;
+} */ 
+
+
+
 * {
     margin: 0;
     padding: 0;
 }
 
 
-body {
-    background-color: bisque;
+
+body{
     margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 16px;
+    background-color: bisque;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;  
+} 
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 
+.title-site {
+    text-align: center;
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 103.2px */
+}
 
+.title-label {
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-name {
+    color: #000;
+    text-align: right;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-manager-name {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Position {
+    color: #0D0D0D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Skills {
+    color: #0D0D0D;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.quote {
+    color: #0D0D0D;
+    font-family: 'Bitter',serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.designer-name {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.description {
+    color: #000;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.description>span{
+    font-weight: 700;
+}
+
+
+.site {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.link {
+    color: #000;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text {
+    color: #000;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Strengths-list {
+    color: #000;
+    font-family: 'Playfair Display';
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 86px */
+}
+
+.Strengths {
+    color: #000;
+    font-family: 'Bitter', serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
