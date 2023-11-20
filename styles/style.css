@@ -103,7 +103,7 @@ body{
 }
 
 
-.title-page {
+.nav_title-page {
     /* width: 1440px; */
     height: 630px;
     flex-shrink: 0;
@@ -115,7 +115,7 @@ body{
     margin-bottom: 150px;
 }
 
-.title-text {
+.nav_title-text {
     display: flex;
     width: 690px;
     padding: 110px 20px;
@@ -262,7 +262,7 @@ body{
     line-height: normal;
 }
 
-.Strengths-list {
+.strong-points_list-title {
     color: #000;
     font-family: 'Playfair Display';
     font-size: 86px;
@@ -271,7 +271,7 @@ body{
     line-height: 100%; /* 86px */
 }
 
-.Strengths {
+.strong-points_list {
     color: #000;
     font-family: 'Bitter', serif;
     font-size: 34px;
