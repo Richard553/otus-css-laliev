@@ -124,9 +124,6 @@ body{
     align-items: center;
     gap: 14px;
     background-color: #FFF;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .nav-link {
@@ -151,7 +148,7 @@ body{
     font-size: 86px;
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 103.2px */
+    line-height: 120%;  /* 103.2px */
 }
 
 .title-label {
@@ -164,7 +161,9 @@ body{
     line-height: normal;
 }
 
-.section-name {
+/* section biography  */
+
+.title {
     color: #000;
     text-align: right;
     font-family: 'Roboto';
@@ -173,6 +172,123 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+
+
+/* секция биография */
+
+.biography-container {
+
+    display: flex;
+    width: auto;
+    height: auto;
+    gap: 139px;    
+    justify-content: center;
+
+    /* display: flex;
+    justify-content: center;
+    margin-bottom: 150px; */
+
+
+
+    /* margin-top: 150px;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    position: relative; */
+
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center;
+    margin-top: 150px;
+    margin-bottom: 150px; */
+}
+
+.procherk{
+    width:20px;
+    height: 6px;
+    background-color: #0d0d0d;
+}
+.biography2{
+    width: 590px;
+    display: flex;
+}
+.biography-title {
+
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 25px;
+    align-self: flex-start;
+    display: flex;
+
+
+     /* margin-top: 150px;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    position: relative; */
+
+    /* width: 115px;
+    height: 23px;
+    transform: rotate(-90deg);
+    flex-shrink: 0; */
+}
+
+
+
+.biography-name-container {
+    display: flex;
+    width: 455px;
+    height: 840px;
+    padding: 18px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 36px;
+    flex-shrink: 0;
+
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 32.5%;
+    max-width: 500px; */
+}
+
+.biography-vert {
+
+    /* writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-left: 2%;
+    margin-right: 6%;
+    align-self: flex-start; */
+
+  
+    
+    /* display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 32.5%;
+    max-width: 500px; */
+}
+    
+    
+
+    
+
+.biography-picture {
+    width: 100%;
+    /* flex-shrink: 0; */
+    /* width: 571px;
+    height: 840px;
+    flex-shrink: 0; */
+
+}
+
+
+
+/* Секция дизайнеры */
+
+
 
 .top-manager-name {
     color: #000;
@@ -228,6 +344,7 @@ body{
     font-weight: 400;
     line-height: normal;
 }
+
 .description>span{
     font-weight: 700;
 }
